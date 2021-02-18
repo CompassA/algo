@@ -1,4 +1,3 @@
-#include <iostream>
 #include <string>
 #include <unordered_set>
 #include <unordered_map>
@@ -79,4 +78,5 @@ private:
 
 int main(int s, char**d) {
     Solution126().findLadders("a", "c", {"a","b","c"});
+    return 0;
 }
